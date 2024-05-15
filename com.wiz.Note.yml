@@ -1,8 +1,8 @@
 app-id: com.wiz.Note
 base: io.qt.qtwebengine.BaseApp
-base-version: '5.15'
+base-version: '5.15-23.08'
 runtime: org.kde.Platform
-runtime-version: '5.15'
+runtime-version: '5.15-23.08'
 sdk: org.kde.Sdk
 separate-locales: false
 command: WizNote
@@ -30,10 +30,7 @@ modules:
     sources:
       - type: git
         url: 'https://github.com/WizTeam/WizQTClient.git'
-        branch: '2.8.7'
-        commit: 'e733f793b453beffb3770ab101dd210ab38c5098'
-      - type: patch
-        # https://github.com/WizTeam/WizQTClient/pull/635
-        path: 0001-Fixes-for-Qt-5.15.patch
+        branch: '2.8.8'
+        commit: '7067bcfc421edce932aa3144ef2d1d631f27595a'
       - type: file
         path: com.wiz.Note.appdata.xml
