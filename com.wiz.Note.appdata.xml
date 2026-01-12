@@ -6,13 +6,13 @@
   <name>Wiz Note</name>
   <summary>An excellent PKM (personal knowledge management) desktop environment based on cloud usage</summary>
   <description>
+    <p>**NOTE: This wrapper is not verified by, affiliated with, or supported by Wiz.**</p>
     <p>
       The project is based on Qt, aimed to provide an excellent PKM (personal knowledge management) desktop environment based on cloud usage. 
     </p>
     <p>
       PKM should be an very important thing cross through one person's life, it's unwise to stick yourself to a fixed service provider or jump around and leave your collected info/secrets behide. PKM should be the same as your mind, fly over the ocean but never splash the waves.
     </p>
-    <p>NOTE: This wrapper is not verified by, affiliated with, or supported by Wiz.</p>
   </description>
   <launchable type="desktop-id">com.wiz.Note.desktop</launchable>
   <screenshots>
