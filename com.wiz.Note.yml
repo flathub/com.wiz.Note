@@ -30,7 +30,7 @@ modules:
     sources:
       - type: git
         url: 'https://github.com/WizTeam/WizQTClient.git'
-        branch: '2.8.7'
+        # branch: '2.8.7'
         commit: 'e733f793b453beffb3770ab101dd210ab38c5098'
       - type: patch
         # https://github.com/WizTeam/WizQTClient/pull/635
